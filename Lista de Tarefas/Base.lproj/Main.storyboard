@@ -22,8 +22,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <outlet property="dataSource" destination="9pv-A4-QxB" id="d8L-pn-FAL"/>
-                                    <outlet property="delegate" destination="9pv-A4-QxB" id="NZl-Wh-h96"/>
+                                    <outlet property="dataSource" destination="9pv-A4-QxB" id="17U-Jg-Ca8"/>
+                                    <outlet property="delegate" destination="9pv-A4-QxB" id="Mmj-t1-aSm"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -31,7 +31,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Tarefas" image="first" id="acW-dT-cKf"/>
                     <connections>
-                        <outlet property="tblTarefas" destination="uEz-Nb-jMq" id="auI-Re-7lG"/>
+                        <outlet property="tblTarefas" destination="uEz-Nb-jMq" id="ee1-WV-Uw9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
@@ -83,6 +83,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Cadastrar"/>
                                 <connections>
+                                    <action selector="btClick:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="P8d-KX-odV"/>
                                     <action selector="click:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="I6F-Fp-zyN"/>
                                 </connections>
                             </button>
@@ -91,8 +92,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Novas" image="second" id="cPa-gy-q4n"/>
                     <connections>
-                        <outlet property="txtDesc" destination="C4r-R7-qNy" id="shE-cW-j2L"/>
-                        <outlet property="txtName" destination="t6h-Dg-JSy" id="7ee-45-Lj9"/>
+                        <outlet property="txtDesc" destination="C4r-R7-qNy" id="wKs-10-6An"/>
+                        <outlet property="txtName" destination="t6h-Dg-JSy" id="m1F-rX-GAB"/>
+                        <outlet property="txtNome" destination="t6h-Dg-JSy" id="11g-2Z-e37"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
